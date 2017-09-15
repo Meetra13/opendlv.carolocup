@@ -1,4 +1,4 @@
-# OpenDLV - Software for CaroloCup realized with OpenDLV and OpenDaVINCI
+# OpenDLV - Software for scaled cars realized with OpenDLV and OpenDaVINCI
 # Copyright (C) 2016 Chalmers
 #
 # This program is free software; you can redistribute it and/or
@@ -15,7 +15,12 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
-project(carolocup-control)
+project(scaledcars-control)
 
-add_subdirectory(example)
-
+add_subdirectory(lanefollower)
+add_subdirectory(overtaker)
+add_subdirectory(proxy)
+add_subdirectory(serialsendhandler)
+add_subdirectory(serialreceivehandler)
+add_subdirectory(communicationlink)
+add_subdirectory(park)
